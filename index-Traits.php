@@ -5,6 +5,7 @@
  $autorBook = "Adam Ber Book";
  $cenaBook = "10 zł";
  $isbnBook = "ISBN: 34523211345546456456456";
+ $kategoriaBook = "Informatyka";
  $polkaBook = "Półka nr 14 ";
 
   $book1 = new Book();
@@ -25,6 +26,10 @@
      // nr ISBN
  echo $book1->getISBN()."<br>";
 
+$book1->setKategoria($kategoriaBook);
+ // kategoria
+ echo $book1->getKategoria()."<br>";
+
  $book1->setPolka($polkaBook);
  // która półka
  echo $book1->getPolka()."<br>";
@@ -35,6 +40,7 @@
  $autorKomiks = "Adam Ber Komiks";
  $cenaKomiks = "5 zł";
  $isbnKomiks = "ISBN: 99995345546456456456";
+ $kategoriaKomiks = "Kajko i Ko";
  $polkaKomiks = "Półka nr 15 ";
  $figurka     = "Prezent do komiksu";
  
@@ -55,8 +61,12 @@
     $komiks1->setISBN($isbnKomiks);
      // nr ISBN
  echo $komiks1->getISBN()."<br>";
- 
-   $komiks1->setKomiksZFigurka($figurka);
+
+ $komiks1->setKategoria($kategoriaKomiks);
+ // kategoria
+ echo $komiks1->getKategoria()."<br>";
+
+ $komiks1->setKomiksZFigurka($figurka);
      // Prezent do komiksu 
  echo $komiks1->getKomiksZFigurka()."<br>";;
   
