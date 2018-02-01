@@ -14,7 +14,7 @@
 	 public function setPolka($ktoraPolka);
  }
  
- Class Book implements Ksiegarnia{
+ class Book implements Ksiegarnia{
 	 
    public $tytul;
    public $autor;
