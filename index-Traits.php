@@ -73,3 +73,29 @@ $book1->setKategoria($kategoriaBook);
  $komiks1->setPolka($polkaKomiks);
  // która półka
  echo $komiks1->getPolka()."<br>";
+
+##### Gry PC ########
+ $tytulPC = "Gra PC Manager Wydobycia";
+ $autorPC = "Adam Ber Gra PC";
+ $cenaPC = "1 zł";
+ $wiekGraczyPC = "Od 14 Lat";
+ 
+ 
+$gryPc = new GryPC();
+
+$gryPc->setTytul($tytulPC);
+ // Tytul
+ echo $gryPc->getTytul()."<br>";
+ 
+ $gryPc->setAutor($autorPC);
+ // Autor
+ echo $gryPc->getAutor()."<br>";
+ 
+ $gryPc->setCena($cenaPC);
+   // Cena 
+ echo $gryPc->getCena()."<br>";
+
+$gryPc->setWiekGraczy($wiekGraczyPC);
+   // Wiek Graczy 
+ echo $gryPc->getWiekGraczy()."<br>";
+
