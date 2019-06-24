@@ -1,5 +1,5 @@
 <?php
-require_once(dirname(__FILE__) ."/Class-Abstract-Polimorf.php");
+require_once(dirname(__FILE__) ."/Class-Traits-Polimorf.php");
  ####### Book ########
 
  $tytulBook = "Book Manager Wydobycia";
