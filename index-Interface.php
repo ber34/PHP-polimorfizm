@@ -1,5 +1,5 @@
 <?php
-
+require_once(dirname(__FILE__) ."/Class-Abstract-Polimorf.php");
 
  $tytulBook = "Manager Wydobycia";
  $cenaBook = "100 zł";
