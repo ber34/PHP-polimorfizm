@@ -10,7 +10,7 @@
 	 public function setAutor($autor);
 	 public function getISBN();
 	 public function setISBN($isbn);
-   public function getPolka();
+         public function getPolka();
 	 public function setPolka($ktoraPolka);
  }
  
@@ -81,55 +81,67 @@
    public $cena;
    public $isbn;
    public $polka;
+   public $seriesNumber;
    
-	 public function getTytul(){
-			 
-		return  $this->tytul;
-	    }
-		
-	 public function setTytul($tytul){
+	  public function setTytul($tytul){
 			 
 		  $this->tytul = $tytul;
 	    }
-		
-	public function getAutor(){
+	 
+	  public function getTytul(){
 			 
-		return  $this->autor;
+		return  $this->tytul;
 	    }
-		
-	 public function setAutor($autor){
+	 
+	  public function setAutor($autor){
 			 
 		  $this->autor = $autor;
 	    }
-
-    public function getCena(){
-		 
-		 return  $this->cena;
-	  }
-
-    public function setCena($cena){
+		
+	  public function getAutor(){
+			 
+		return  $this->autor;
+	    }
+	 
+	  public function setCena($cena){
 		 
 		 $this->cena = $cena;
-	 }		
-	 
-	 public function getISBN(){
-			 
-		return  $this->isbn;		
-	 }
+	  }
+
+          public function getCena(){
+		 
+		 return  $this->cena;
+	  }	
 	 
 	  public function setISBN($isbn){
 	      $this->isbn = $isbn;
 	  }
 	 
-	public function getPolka(){
+	  public function getISBN(){
+			 
+		return  $this->isbn;		
+	 }
+	 
+	 
+	  public function setPolka($polka){
+		
+		 $this->polka = $polka;	
+	} 
+	 
+	  public function getPolka(){
 		
 		return $this->polka;
 	} 
 	
-	public function setPolka($polka){
+	  public function setPolka($polka){
 		
 		 $this->polka = $polka;	
 	} 
+	 
+	  public function getPolka(){
+		
+		return $this->polka;
+	}  
  }
  
   
