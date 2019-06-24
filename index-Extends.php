@@ -5,6 +5,7 @@ require_once(dirname(__FILE__) ."/Class-Extends-Polimorf.php");
  
  $tytulBook = "Book Manager Wydobycia";
  $autorBook = "Adam Ber Book";
+ $isbn      = "12-234-97-0";
  
    $book1 = new Book();
   
@@ -16,3 +17,6 @@ require_once(dirname(__FILE__) ."/Class-Extends-Polimorf.php");
  // Autor
  echo $book1->getAutor()."<br>";
 
+   $book1->setIsbn($isbn);
+ // Isbn
+ echo $book1->getIsbn()."<br>";
