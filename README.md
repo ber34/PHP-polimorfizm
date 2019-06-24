@@ -11,7 +11,7 @@
 3. Polimorfizm Traits
 4. Polimorfizm Dziedziczony
 
-# PHP-polimorfizm EN
+# PHP-Polymorphism EN
 
 While learning about oop programming tests in PHP, I came across an interesting topic, which is polymorphism.
 Due to the fact that there were few materials on this subject in Polish, I decided to make it a little easier
