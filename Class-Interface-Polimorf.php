@@ -133,14 +133,14 @@
 		return $this->polka;
 	} 
 	
-	  public function setPolka($polka){
+	  public function setSeriesNumber($seriesNumber){
 		
-		 $this->polka = $polka;	
+		 $this->seriesNumber = $seriesNumber;	
 	} 
 	 
-	  public function getPolka(){
+	  public function getSeriesNumber(){
 		
-		return $this->polka;
+		return $this->seriesNumber;
 	}  
  }
  
