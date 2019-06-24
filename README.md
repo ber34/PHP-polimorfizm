@@ -10,3 +10,16 @@
 2. Polimorfizm Abstrakcyjny
 3. Polimorfizm Traits
 4. Polimorfizm Dziedziczony
+
+# PHP-polimorfizm EN
+
+While learning about oop programming tests in PHP, I came across an interesting topic, which is polymorphism.
+Due to the fact that there were few materials on this subject in Polish, I decided to make it a little easier
+learning for future programmers looking for some materials about polymorphism, dividing it into categories.
+I have not met with such a division, so I hope I did well by dividing it into four categories.
+I consider the division into categories to be more easily absorbed, understandable and transparent for further learning.
+
+1. Interface Polymorphism
+2. Polymorphism Abstract
+3. Polymorphism Traits
+4. Polymorphism Inherited
