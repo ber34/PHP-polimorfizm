@@ -33,7 +33,7 @@ abstract class Ksiegarnia{
  
  class Book extends Ksiegarnia{
  
-	 private $isbn;
+	 public $isbn;
 	 
         public function setTytul($tytul){
 			 
@@ -63,7 +63,7 @@ abstract class Ksiegarnia{
  
  class Komiks extends Ksiegarnia{
  
-	 private $seriesNumber; 
+	 public $seriesNumber; 
 	 
         public function setTytul($tytul){
 			 
