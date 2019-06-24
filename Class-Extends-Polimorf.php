@@ -30,7 +30,9 @@ class Ksiegarnia{
  
  class Book extends Ksiegarnia{
  
-    public function setTytul($tytul){
+	 public $isbn;
+	 
+       public function setTytul($tytul){
 			 
 		  $this->tytul = $tytul;
 	    }
@@ -38,5 +40,15 @@ class Ksiegarnia{
 	public function setAutor($autor){
 			 
 		  $this->autor = $autor;
+	    }
+	 
+	public function setIsbn($isbn){
+			 
+		  $this->isbn = $isbn;
+	    }	
+		
+        public function getIsbn(){
+			 
+		return  $this->isbn;
 	    }
  }
